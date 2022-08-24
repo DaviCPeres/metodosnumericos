@@ -174,6 +174,7 @@ if metodo == "Bisseção":
 
     funcao = st.text_input("Escreva a função")
     st.write(funcao)
+    st.write("A função deve ser escrita como uma linha de python utilizando x como variável")
 
     def f(x):
         return eval(funcao)
@@ -195,6 +196,7 @@ if metodo == "Falsa Posição":
 
     funcao = st.text_input("Escreva a função")
     st.write(funcao)
+    st.write("A função deve ser escrita como uma linha de python utilizando x como variável")
 
 
     def f(x):
@@ -215,6 +217,7 @@ if metodo == "Ponto Fixo":
 
     funcao = st.text_input("Escreva a função")
     st.write(funcao)
+    st.write("A função deve ser escrita como uma linha de python utilizando x como variável")
 
 
     def f(x):
@@ -234,9 +237,11 @@ if metodo == "Newton Raphson":
 
     funcao = st.text_input("Escreva a função")
     st.write(funcao)
+    st.write("A função deve ser escrita como uma linha de python utilizando x como variável")
 
     dfuncao = st.text_input("Escreva a função derivada")
     st.write(dfuncao)
+    st.write("A função deve ser escrita como uma linha de python utilizando x como variável")
 
 
     def f(x):
@@ -262,6 +267,7 @@ if metodo == "Secante":
 
     funcao = st.text_input("Escreva a função")
     st.write(funcao)
+    st.write("A função deve ser escrita como uma linha de python utilizando x como variável")
 
     def f(x):
         return eval(funcao)
