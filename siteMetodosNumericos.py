@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 
-st.sidebar.write("Site criado por Davi Peres")
+st.sidebar.write("Site criado por Davi Peres para utilização na cadeira de Métodos Numéricos")
 
 def bissecao(a,b,erro,funcao,iteracoes = 0):
     continuar = True
