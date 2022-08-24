@@ -179,7 +179,7 @@ if metodo == "Bisseção":
         return eval(funcao)
 
     if funcao != "":
-        st.dataframe(bissecao(a,b,var,f))
+        st.table(bissecao(a,b,var,f))
 
 if metodo == "Falsa Posição":
 
@@ -202,7 +202,7 @@ if metodo == "Falsa Posição":
 
 
     if funcao != "":
-        st.dataframe(falsaposicao(a, b, var, f))
+        st.table(falsaposicao(a, b, var, f))
 
 if metodo == "Ponto Fixo":
 
@@ -222,7 +222,7 @@ if metodo == "Ponto Fixo":
 
 
     if funcao != "":
-        st.dataframe(pontofixo(x,var,f))
+        st.table(pontofixo(x,var,f))
 
 if metodo == "Newton Raphson":
     st.header("Newton Raphson")
@@ -247,7 +247,7 @@ if metodo == "Newton Raphson":
 
 
     if funcao != "":
-        st.dataframe(newtonraphson(x, var, f,df))
+        st.table(newtonraphson(x, var, f,df))
 
 if metodo == "Secante":
     st.header("Secante")
@@ -267,6 +267,6 @@ if metodo == "Secante":
         return eval(funcao)
 
     if funcao != "":
-        st.dataframe(secante(x0,x1, var, f))
+        st.table(secante(x0,x1, var, f))
 
 
